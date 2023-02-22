@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/example-app-fbpixel" />
+            <option value="$PROJECT_DIR$/example-app-java" />
+            <option value="$PROJECT_DIR$/example-app-keyboard" />
+            <option value="$PROJECT_DIR$/example-app-kotlin" />
+            <option value="$PROJECT_DIR$/example-app-tv" />
+            <option value="$PROJECT_DIR$/example-app-webbridge" />
+            <option value="$PROJECT_DIR$/sdk-core" />
+            <option value="$PROJECT_DIR$/sdk-plugin-criteo" />
+            <option value="$PROJECT_DIR$/sdk-plugin-imei" />
+            <option value="$PROJECT_DIR$/sdk-plugin-oaid" />
+            <option value="$PROJECT_DIR$/sdk-plugin-samsung-referrer" />
+            <option value="$PROJECT_DIR$/sdk-plugin-sociomantic" />
+            <option value="$PROJECT_DIR$/sdk-plugin-trademob" />
+            <option value="$PROJECT_DIR$/sdk-plugin-vivo-referrer" />
+            <option value="$PROJECT_DIR$/sdk-plugin-webbridge" />
+            <option value="$PROJECT_DIR$/sdk-plugin-xiaomi-referrer" />
+            <option value="$PROJECT_DIR$/test-app-core" />
+            <option value="$PROJECT_DIR$/test-app-webbridge" />
+            <option value="$PROJECT_DIR$/test-kotlin" />
+            <option value="$PROJECT_DIR$/test-library" />
+            <option value="$PROJECT_DIR$/test-options" />
+            <option value="$PROJECT_DIR$/test-unit" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

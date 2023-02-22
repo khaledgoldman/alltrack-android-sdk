@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.alltrack.examples.keyboard.example-app-keyboard-merged_res-14:/xml_method.xml.flat",
+        "source": "com.alltrack.examples.keyboard.example-app-keyboard-main-16:/xml/method.xml"
+    },
+    {
+        "merged": "com.alltrack.examples.keyboard.example-app-keyboard-merged_res-14:/layout_key_preview.xml.flat",
+        "source": "com.alltrack.examples.keyboard.example-app-keyboard-main-16:/layout/key_preview.xml"
+    },
+    {
+        "merged": "com.alltrack.examples.keyboard.example-app-keyboard-merged_res-14:/layout_keyboard_view.xml.flat",
+        "source": "com.alltrack.examples.keyboard.example-app-keyboard-main-16:/layout/keyboard_view.xml"
+    },
+    {
+        "merged": "com.alltrack.examples.keyboard.example-app-keyboard-merged_res-14:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.alltrack.examples.keyboard.example-app-keyboard-main-16:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.alltrack.examples.keyboard.example-app-keyboard-merged_res-14:/layout_activity_main.xml.flat",
+        "source": "com.alltrack.examples.keyboard.example-app-keyboard-main-16:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.alltrack.examples.keyboard.example-app-keyboard-merged_res-14:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.alltrack.examples.keyboard.example-app-keyboard-main-16:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.alltrack.examples.keyboard.example-app-keyboard-merged_res-14:/xml_keyboard.xml.flat",
+        "source": "com.alltrack.examples.keyboard.example-app-keyboard-main-16:/xml/keyboard.xml"
+    },
+    {
+        "merged": "com.alltrack.examples.keyboard.example-app-keyboard-merged_res-14:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.alltrack.examples.keyboard.example-app-keyboard-main-16:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.alltrack.examples.keyboard.example-app-keyboard-merged_res-14:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.alltrack.examples.keyboard.example-app-keyboard-main-16:/mipmap-hdpi/ic_launcher.png"
+    }
+]

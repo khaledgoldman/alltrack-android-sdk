@@ -1,0 +1,337 @@
+# compiler: R8
+# compiler_version: 3.2.74
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.0"}
+# pg_map_id: e117a9b
+# pg_map_hash: SHA-256 e117a9bb6ef67e69b656a7065c9a8ef88788a36d3d418187d527e731d7d8c5a0
+com.alltrack.sdk.ActivityHandler$1 -> com.alltrack.sdk.ActivityHandler$k:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$10 -> com.alltrack.sdk.ActivityHandler$a:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$11 -> com.alltrack.sdk.ActivityHandler$b:
+    com.alltrack.sdk.ActivityHandler this$0 -> c
+    com.alltrack.sdk.ReferrerDetails val$referrerDetails -> a
+    java.lang.String val$referrerApi -> b
+com.alltrack.sdk.ActivityHandler$12 -> com.alltrack.sdk.ActivityHandler$c:
+    com.alltrack.sdk.EventResponseData val$eventResponseData -> a
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+com.alltrack.sdk.ActivityHandler$13 -> com.alltrack.sdk.ActivityHandler$d:
+    com.alltrack.sdk.SdkClickResponseData val$sdkClickResponseData -> a
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+com.alltrack.sdk.ActivityHandler$14 -> com.alltrack.sdk.ActivityHandler$e:
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+    com.alltrack.sdk.SessionResponseData val$sessionResponseData -> a
+com.alltrack.sdk.ActivityHandler$15 -> com.alltrack.sdk.ActivityHandler$f:
+    com.alltrack.sdk.AttributionResponseData val$attributionResponseData -> a
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+com.alltrack.sdk.ActivityHandler$16 -> com.alltrack.sdk.ActivityHandler$g:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$17 -> com.alltrack.sdk.ActivityHandler$h:
+    com.alltrack.sdk.ActivityHandler this$0 -> c
+    java.lang.String val$key -> a
+    java.lang.String val$value -> b
+com.alltrack.sdk.ActivityHandler$18 -> com.alltrack.sdk.ActivityHandler$i:
+    com.alltrack.sdk.ActivityHandler this$0 -> c
+    java.lang.String val$key -> a
+    java.lang.String val$value -> b
+com.alltrack.sdk.ActivityHandler$19 -> com.alltrack.sdk.ActivityHandler$j:
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+    java.lang.String val$key -> a
+com.alltrack.sdk.ActivityHandler$2 -> com.alltrack.sdk.ActivityHandler$v:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$20 -> com.alltrack.sdk.ActivityHandler$l:
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+    java.lang.String val$key -> a
+com.alltrack.sdk.ActivityHandler$21 -> com.alltrack.sdk.ActivityHandler$m:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$22 -> com.alltrack.sdk.ActivityHandler$n:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$23 -> com.alltrack.sdk.ActivityHandler$o:
+    com.alltrack.sdk.ActivityHandler this$0 -> c
+    boolean val$preSaved -> a
+    java.lang.String val$token -> b
+com.alltrack.sdk.ActivityHandler$24 -> com.alltrack.sdk.ActivityHandler$p:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$25 -> com.alltrack.sdk.ActivityHandler$q:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$26 -> com.alltrack.sdk.ActivityHandler$r:
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+    com.alltrack.sdk.AlltrackThirdPartySharing val$alltrackThirdPartySharing -> a
+com.alltrack.sdk.ActivityHandler$27 -> com.alltrack.sdk.ActivityHandler$s:
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+    boolean val$consentMeasurement -> a
+com.alltrack.sdk.ActivityHandler$28 -> com.alltrack.sdk.ActivityHandler$t:
+    org.json.JSONObject val$adRevenueJson -> b
+    com.alltrack.sdk.ActivityHandler this$0 -> c
+    java.lang.String val$source -> a
+com.alltrack.sdk.ActivityHandler$29 -> com.alltrack.sdk.ActivityHandler$u:
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+    com.alltrack.sdk.AlltrackAdRevenue val$alltrackAdRevenue -> a
+com.alltrack.sdk.ActivityHandler$3 -> com.alltrack.sdk.ActivityHandler$g0:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$30 -> com.alltrack.sdk.ActivityHandler$w:
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+    com.alltrack.sdk.AlltrackPlayStoreSubscription val$subscription -> a
+com.alltrack.sdk.ActivityHandler$31 -> com.alltrack.sdk.ActivityHandler$x:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$32 -> com.alltrack.sdk.ActivityHandler$y:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$33 -> com.alltrack.sdk.ActivityHandler$z:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$34 -> com.alltrack.sdk.ActivityHandler$a0:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$35 -> com.alltrack.sdk.ActivityHandler$b0:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$36 -> com.alltrack.sdk.ActivityHandler$c0:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$37 -> com.alltrack.sdk.ActivityHandler$d0:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$38 -> com.alltrack.sdk.ActivityHandler$e0:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$39 -> com.alltrack.sdk.ActivityHandler$f0:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$4 -> com.alltrack.sdk.ActivityHandler$q0:
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+    com.alltrack.sdk.AlltrackEvent val$event -> a
+com.alltrack.sdk.ActivityHandler$40 -> com.alltrack.sdk.ActivityHandler$h0:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$41 -> com.alltrack.sdk.ActivityHandler$i0:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$42 -> com.alltrack.sdk.ActivityHandler$j0:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$43 -> com.alltrack.sdk.ActivityHandler$k0:
+    com.alltrack.sdk.EventResponseData val$eventResponseData -> a
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+com.alltrack.sdk.ActivityHandler$44 -> com.alltrack.sdk.ActivityHandler$l0:
+    com.alltrack.sdk.EventResponseData val$eventResponseData -> a
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+com.alltrack.sdk.ActivityHandler$45 -> com.alltrack.sdk.ActivityHandler$m0:
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+    com.alltrack.sdk.SessionResponseData val$sessionResponseData -> a
+com.alltrack.sdk.ActivityHandler$46 -> com.alltrack.sdk.ActivityHandler$n0:
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+    com.alltrack.sdk.SessionResponseData val$sessionResponseData -> a
+com.alltrack.sdk.ActivityHandler$47 -> com.alltrack.sdk.ActivityHandler$o0:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityHandler$48 -> com.alltrack.sdk.ActivityHandler$p0:
+    android.content.Intent val$deeplinkIntent -> b
+    com.alltrack.sdk.ActivityHandler this$0 -> c
+    android.net.Uri val$deeplink -> a
+com.alltrack.sdk.ActivityHandler$5 -> com.alltrack.sdk.ActivityHandler$r0:
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+    boolean val$enabled -> a
+com.alltrack.sdk.ActivityHandler$6 -> com.alltrack.sdk.ActivityHandler$s0:
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+    boolean val$offline -> a
+com.alltrack.sdk.ActivityHandler$7 -> com.alltrack.sdk.ActivityHandler$t0:
+    com.alltrack.sdk.ActivityHandler this$0 -> c
+    long val$clickTime -> b
+    android.net.Uri val$url -> a
+com.alltrack.sdk.ActivityHandler$8 -> com.alltrack.sdk.ActivityHandler$u0:
+    com.alltrack.sdk.ActivityHandler this$0 -> b
+    boolean val$askingAttribution -> a
+com.alltrack.sdk.ActivityHandler$9 -> com.alltrack.sdk.ActivityHandler$v0:
+    com.alltrack.sdk.ActivityHandler this$0 -> a
+com.alltrack.sdk.ActivityKind$1 -> com.alltrack.sdk.ActivityKind$a:
+    int[] $SwitchMap$com$alltrack$sdk$ActivityKind -> a
+com.alltrack.sdk.AlltrackInstance$1 -> com.alltrack.sdk.AlltrackInstance$a:
+    java.lang.String val$key -> a
+    java.lang.String val$value -> b
+com.alltrack.sdk.AlltrackInstance$2 -> com.alltrack.sdk.AlltrackInstance$b:
+    java.lang.String val$key -> a
+    java.lang.String val$value -> b
+com.alltrack.sdk.AlltrackInstance$3 -> com.alltrack.sdk.AlltrackInstance$c:
+    java.lang.String val$key -> a
+com.alltrack.sdk.AlltrackInstance$4 -> com.alltrack.sdk.AlltrackInstance$d:
+    java.lang.String val$key -> a
+com.alltrack.sdk.AlltrackInstance$5 -> com.alltrack.sdk.AlltrackInstance$e:
+com.alltrack.sdk.AlltrackInstance$6 -> com.alltrack.sdk.AlltrackInstance$f:
+com.alltrack.sdk.AlltrackLinkResolution$1 -> com.alltrack.sdk.AlltrackLinkResolution$a:
+    com.alltrack.sdk.AlltrackLinkResolution$AlltrackLinkResolutionCallback val$alltrackLinkResolutionCallback -> b
+    java.net.URL val$finalOriginalURL -> a
+com.alltrack.sdk.AttributionHandler$1 -> com.alltrack.sdk.AttributionHandler$a:
+    com.alltrack.sdk.AttributionHandler this$0 -> a
+com.alltrack.sdk.AttributionHandler$2 -> com.alltrack.sdk.AttributionHandler$b:
+    com.alltrack.sdk.AttributionHandler this$0 -> a
+com.alltrack.sdk.AttributionHandler$3 -> com.alltrack.sdk.AttributionHandler$c:
+    com.alltrack.sdk.SessionResponseData val$sessionResponseData -> a
+    com.alltrack.sdk.AttributionHandler this$0 -> b
+com.alltrack.sdk.AttributionHandler$4 -> com.alltrack.sdk.AttributionHandler$d:
+    com.alltrack.sdk.SdkClickResponseData val$sdkClickResponseData -> a
+    com.alltrack.sdk.AttributionHandler this$0 -> b
+com.alltrack.sdk.AttributionHandler$5 -> com.alltrack.sdk.AttributionHandler$e:
+    com.alltrack.sdk.AttributionResponseData val$attributionResponseData -> a
+    com.alltrack.sdk.AttributionHandler this$0 -> b
+com.alltrack.sdk.AttributionHandler$6 -> com.alltrack.sdk.AttributionHandler$f:
+    com.alltrack.sdk.AttributionHandler this$0 -> a
+com.alltrack.sdk.AttributionHandler$7 -> com.alltrack.sdk.AttributionHandler$g:
+    com.alltrack.sdk.ResponseData val$responseData -> a
+    com.alltrack.sdk.AttributionHandler this$0 -> b
+com.alltrack.sdk.DeviceInfo -> com.alltrack.sdk.a:
+    java.lang.String androidId -> f
+    java.lang.String clientSdk -> h
+    java.lang.String appVersion -> j
+    java.lang.String deviceName -> l
+    java.lang.String osName -> n
+    java.lang.String apiLevel -> p
+    java.lang.String country -> r
+    int uiMode -> C
+    java.lang.String screenFormat -> t
+    java.lang.String displayWidth -> v
+    java.lang.String hardwareName -> x
+    java.lang.String buildName -> z
+    java.lang.String playAdId -> a
+    java.lang.String appUpdateTime -> B
+    java.lang.String fbAttributionId -> g
+    java.lang.String packageName -> i
+    java.lang.String deviceType -> k
+    java.lang.String deviceManufacturer -> m
+    java.lang.String osVersion -> o
+    java.lang.String language -> q
+    java.lang.String screenSize -> s
+    int playAdIdAttempt -> c
+    java.lang.String screenDensity -> u
+    java.lang.String displayHeight -> w
+    java.lang.String abi -> y
+    boolean nonGoogleIdsReadOnce -> e
+    java.lang.String appInstallTime -> A
+    java.lang.String playAdIdSource -> b
+    java.lang.Boolean isTrackingEnabled -> d
+    java.lang.String getABI() -> a
+    java.lang.String getAppInstallTime(android.content.Context) -> a
+    java.lang.String getClientSdk(java.lang.String) -> a
+    java.lang.String getCountry(java.util.Locale) -> a
+    java.lang.String getDeviceType(android.content.res.Configuration) -> a
+    java.lang.String getDisplayHeight(android.util.DisplayMetrics) -> a
+    java.lang.String getScreenFormat(int) -> a
+    void reloadNonPlayIds(com.alltrack.sdk.AlltrackConfig) -> a
+    java.lang.String getApiLevel() -> b
+    java.lang.String getAppUpdateTime(android.content.Context) -> b
+    int getDeviceUiMode(android.content.res.Configuration) -> b
+    java.lang.String getDisplayWidth(android.util.DisplayMetrics) -> b
+    java.lang.String getLanguage(java.util.Locale) -> b
+    java.lang.String getScreenSize(int) -> b
+    void reloadPlayIds(com.alltrack.sdk.AlltrackConfig) -> b
+    java.lang.String getAppVersion(android.content.Context) -> c
+    java.lang.String getBuildName() -> c
+    java.lang.String getScreenDensity(android.util.DisplayMetrics) -> c
+    java.lang.String getDeviceManufacturer() -> d
+    java.lang.String getFacebookAttributionId(android.content.Context) -> d
+    java.lang.String getDeviceName() -> e
+    java.lang.String getPackageName(android.content.Context) -> e
+    java.lang.String getHardwareName() -> f
+    java.lang.String getOsVersion() -> g
+com.alltrack.sdk.GooglePlayServicesClient -> com.alltrack.sdk.GooglePlayServicesClient:
+    1:1:java.lang.String com.alltrack.sdk.GooglePlayServicesClient$GooglePlayServicesInterface.getGpsAdid():0:0 -> getGooglePlayServicesInfo
+    1:1:com.alltrack.sdk.GooglePlayServicesClient$GooglePlayServicesInfo getGooglePlayServicesInfo(android.content.Context,long):0 -> getGooglePlayServicesInfo
+    2:2:java.lang.Boolean com.alltrack.sdk.GooglePlayServicesClient$GooglePlayServicesInterface.getTrackingEnabled(boolean):0:0 -> getGooglePlayServicesInfo
+    2:2:com.alltrack.sdk.GooglePlayServicesClient$GooglePlayServicesInfo getGooglePlayServicesInfo(android.content.Context,long):0 -> getGooglePlayServicesInfo
+    3:3:com.alltrack.sdk.GooglePlayServicesClient$GooglePlayServicesInfo getGooglePlayServicesInfo(android.content.Context,long):0:0 -> getGooglePlayServicesInfo
+    4:4:java.lang.Boolean com.alltrack.sdk.GooglePlayServicesClient$GooglePlayServicesInterface.getTrackingEnabled(boolean):0:0 -> getGooglePlayServicesInfo
+    4:4:com.alltrack.sdk.GooglePlayServicesClient$GooglePlayServicesInfo getGooglePlayServicesInfo(android.content.Context,long):0 -> getGooglePlayServicesInfo
+    5:5:java.lang.String com.alltrack.sdk.GooglePlayServicesClient$GooglePlayServicesInterface.getGpsAdid():0:0 -> getGooglePlayServicesInfo
+    5:5:com.alltrack.sdk.GooglePlayServicesClient$GooglePlayServicesInfo getGooglePlayServicesInfo(android.content.Context,long):0 -> getGooglePlayServicesInfo
+    6:6:com.alltrack.sdk.GooglePlayServicesClient$GooglePlayServicesInfo getGooglePlayServicesInfo(android.content.Context,long):0:0 -> getGooglePlayServicesInfo
+com.alltrack.sdk.GooglePlayServicesClient$GooglePlayServicesConnection -> com.alltrack.sdk.GooglePlayServicesClient$a:
+    java.util.concurrent.LinkedBlockingQueue queue -> c
+    long timeoutMilliSec -> a
+    boolean retrieved -> b
+    android.os.IBinder getBinder() -> a
+com.alltrack.sdk.InstallReferrer$1 -> com.alltrack.sdk.InstallReferrer$a:
+    com.alltrack.sdk.InstallReferrer this$0 -> a
+com.alltrack.sdk.InstallReferrer$2 -> com.alltrack.sdk.InstallReferrer$b:
+    java.lang.Object[] val$args -> c
+    java.lang.Object val$proxy -> a
+    com.alltrack.sdk.InstallReferrer this$0 -> d
+    java.lang.reflect.Method val$method -> b
+com.alltrack.sdk.PackageBuilder$ActivityStateCopy -> com.alltrack.sdk.PackageBuilder$a:
+    java.lang.String uuid -> g
+    java.lang.String pushToken -> h
+    long sessionLength -> f
+    long lastInterval -> e
+    long timeSpent -> d
+    int sessionCount -> b
+    int subsessionCount -> c
+    int eventCount -> a
+com.alltrack.sdk.PackageHandler$1 -> com.alltrack.sdk.PackageHandler$a:
+    com.alltrack.sdk.PackageHandler this$0 -> a
+com.alltrack.sdk.PackageHandler$2 -> com.alltrack.sdk.PackageHandler$b:
+    com.alltrack.sdk.PackageHandler this$0 -> b
+    com.alltrack.sdk.ActivityPackage val$activityPackage -> a
+com.alltrack.sdk.PackageHandler$3 -> com.alltrack.sdk.PackageHandler$c:
+    com.alltrack.sdk.PackageHandler this$0 -> a
+com.alltrack.sdk.PackageHandler$4 -> com.alltrack.sdk.PackageHandler$d:
+    com.alltrack.sdk.PackageHandler this$0 -> a
+com.alltrack.sdk.PackageHandler$5 -> com.alltrack.sdk.PackageHandler$e:
+    com.alltrack.sdk.PackageHandler this$0 -> a
+com.alltrack.sdk.PackageHandler$6 -> com.alltrack.sdk.PackageHandler$f:
+    com.alltrack.sdk.PackageHandler this$0 -> b
+    com.alltrack.sdk.SessionParameters val$sessionParametersCopy -> a
+com.alltrack.sdk.PackageHandler$7 -> com.alltrack.sdk.PackageHandler$g:
+    com.alltrack.sdk.PackageHandler this$0 -> a
+com.alltrack.sdk.ResponseData$1 -> com.alltrack.sdk.ResponseData$a:
+    int[] $SwitchMap$com$alltrack$sdk$ActivityKind -> a
+com.alltrack.sdk.SdkClickHandler$1 -> com.alltrack.sdk.SdkClickHandler$a:
+    com.alltrack.sdk.SdkClickHandler this$0 -> b
+    com.alltrack.sdk.ActivityPackage val$sdkClick -> a
+com.alltrack.sdk.SdkClickHandler$2 -> com.alltrack.sdk.SdkClickHandler$b:
+    com.alltrack.sdk.SdkClickHandler this$0 -> a
+com.alltrack.sdk.SdkClickHandler$3 -> com.alltrack.sdk.SdkClickHandler$c:
+    com.alltrack.sdk.SdkClickHandler this$0 -> c
+    java.lang.String val$preinstallPayload -> a
+    java.lang.String val$preinstallLocation -> b
+com.alltrack.sdk.SdkClickHandler$4 -> com.alltrack.sdk.SdkClickHandler$d:
+    com.alltrack.sdk.SdkClickHandler this$0 -> a
+com.alltrack.sdk.SdkClickHandler$5 -> com.alltrack.sdk.SdkClickHandler$e:
+    com.alltrack.sdk.SdkClickHandler this$0 -> b
+    com.alltrack.sdk.ActivityPackage val$sdkClickPackage -> a
+com.alltrack.sdk.Util$1 -> com.alltrack.sdk.Util$a:
+    android.content.Context val$context -> a
+com.alltrack.sdk.Util$2 -> com.alltrack.sdk.Util$b:
+    android.content.Context val$context -> a
+    java.lang.Object val$advertisingInfoObject -> b
+    1:1:java.lang.String call():0:0 -> call
+    1:1:java.lang.Object call():0 -> call
+com.alltrack.sdk.Util$3 -> com.alltrack.sdk.Util$c:
+    android.content.Context val$context -> a
+    java.lang.Object val$advertisingInfoObject -> b
+    1:1:java.lang.Boolean call():0:0 -> call
+    1:1:java.lang.Object call():0 -> call
+com.alltrack.sdk.Util$4 -> com.alltrack.sdk.Util$d:
+    com.alltrack.sdk.OnDeviceIdsRead val$onDeviceIdRead -> a
+    1:1:java.lang.String doInBackground(android.content.Context[]):0:0 -> doInBackground
+    1:1:java.lang.Object doInBackground(java.lang.Object[]):0 -> doInBackground
+    1:1:void onPostExecute(java.lang.String):0:0 -> onPostExecute
+    1:1:void onPostExecute(java.lang.Object):0 -> onPostExecute
+com.alltrack.sdk.network.ActivityPackageSender$1 -> com.alltrack.sdk.network.ActivityPackageSender$a:
+    java.util.Map val$sendingParameters -> c
+    com.alltrack.sdk.network.ActivityPackageSender this$0 -> d
+    com.alltrack.sdk.network.IActivityPackageSender$ResponseDataCallbackSubscriber val$responseCallback -> a
+    com.alltrack.sdk.ActivityPackage val$activityPackage -> b
+com.alltrack.sdk.network.UtilNetworking$1 -> com.alltrack.sdk.network.UtilNetworking$a:
+com.alltrack.sdk.network.UtilNetworking$2 -> com.alltrack.sdk.network.UtilNetworking$b:
+com.alltrack.sdk.scheduler.AsyncTaskExecutor$1 -> com.alltrack.sdk.scheduler.AsyncTaskExecutor$a:
+    java.lang.Object[] val$params -> a
+    android.os.Handler val$handler -> b
+    com.alltrack.sdk.scheduler.AsyncTaskExecutor this$0 -> c
+com.alltrack.sdk.scheduler.AsyncTaskExecutor$1$1 -> com.alltrack.sdk.scheduler.AsyncTaskExecutor$a$a:
+    com.alltrack.sdk.scheduler.AsyncTaskExecutor$1 this$1 -> b
+    java.lang.Object val$result -> a
+com.alltrack.sdk.scheduler.SingleThreadCachedScheduler$1 -> com.alltrack.sdk.scheduler.SingleThreadCachedScheduler$a:
+    java.lang.String val$source -> a
+com.alltrack.sdk.scheduler.SingleThreadCachedScheduler$2 -> com.alltrack.sdk.scheduler.SingleThreadCachedScheduler$b:
+    com.alltrack.sdk.scheduler.SingleThreadCachedScheduler this$0 -> c
+    java.lang.Runnable val$task -> b
+    long val$millisecondsDelay -> a
+com.alltrack.sdk.scheduler.SingleThreadCachedScheduler$3 -> com.alltrack.sdk.scheduler.SingleThreadCachedScheduler$c:
+    com.alltrack.sdk.scheduler.SingleThreadCachedScheduler this$0 -> b
+    java.lang.Runnable val$firstRunnable -> a
+com.alltrack.sdk.scheduler.SingleThreadFutureScheduler$1 -> com.alltrack.sdk.scheduler.SingleThreadFutureScheduler$a:
+    java.lang.String val$source -> a
+com.alltrack.sdk.scheduler.SingleThreadFutureScheduler$2 -> com.alltrack.sdk.scheduler.SingleThreadFutureScheduler$b:
+    java.util.concurrent.Callable val$callable -> a
+com.alltrack.sdk.scheduler.ThreadFactoryWrapper$1 -> com.alltrack.sdk.scheduler.ThreadFactoryWrapper$a:
+com.alltrack.sdk.scheduler.TimerCycle$1 -> com.alltrack.sdk.scheduler.TimerCycle$a:
+    com.alltrack.sdk.scheduler.TimerCycle this$0 -> a
+com.alltrack.sdk.scheduler.TimerOnce$1 -> com.alltrack.sdk.scheduler.TimerOnce$a:
+    com.alltrack.sdk.scheduler.TimerOnce this$0 -> a

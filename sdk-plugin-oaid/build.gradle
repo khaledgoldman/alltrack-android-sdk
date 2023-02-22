@@ -1,0 +1,172 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
+apply plugin: 'signing'
+
+repositories {
+    maven {
+        url "https://oss.sonatype.org/content/repositories/staging/"
+    }
+    maven {
+        url "https://developer.huawei.com/repo/"
+    }
+}
+
+android {
+    compileSdkVersion rootProject.ext.coreCompileSdkVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.coreMinSdkVersion
+        targetSdkVersion rootProject.ext.coreTargetSdkVersion
+    }
+}
+
+dependencies {
+    compileOnly files('libs/oaid_sdk_2.0.0.aar')
+    // Add SDK via module.
+    compileOnly project(':sdk-core')
+    // Add SDK via Maven.
+    // implementation 'com.alltrack.sdk:alltrack-android:0.0.1'
+    implementation 'com.huawei.hms:ads-identifier:3.4.56.300'
+}
+
+// read local properties
+File localPropsFile = project.rootProject.file('local.properties')
+if (localPropsFile.exists()) {
+    Properties p = new Properties()
+    new FileInputStream(localPropsFile).withCloseable { is ->
+        p.load(is)
+    }
+    p.each { name, value ->
+        ext[name] = value
+    }
+}
+
+task alltrackOaidAndroidAar (type: Copy) {
+    dependsOn 'assembleRelease'
+
+    from('build/outputs/aar/')
+    include 'sdk-plugin-oaid-release.aar'
+    destinationDir file('build/libs/')
+    rename 'sdk-plugin-oaid-release.aar', "${project.name}.aar"
+
+}
+
+task alltrackOaidAndroidJar(type: Jar) {
+    dependsOn 'packageReleaseAssets'
+    dependsOn 'compileReleaseJavaWithJavac'
+
+    from('build/intermediates/library_assets/release/packageReleaseAssets/out/') {
+        into('assets')
+    }
+    from('build/intermediates/javac/release/classes/')
+
+    archiveName "${project.name}.jar"
+}
+
+task androidJavadocs(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+    android.libraryVariants.all { variant ->
+        if (variant.name == 'release') {
+            classpath += variant.javaCompileProvider.get().classpath
+        }
+    }
+}
+
+task alltrackOaidAndroidJavadocsJar(type: Jar) {
+    dependsOn 'androidJavadocs'
+    classifier = 'javadoc'
+    from androidJavadocs.destinationDir
+}
+
+task alltrackOaidAndroidSourcesJar(type: Jar) {
+    classifier = 'sources'
+    from android.sourceSets.main.java.srcDirs
+}
+
+artifacts {
+    archives alltrackOaidAndroidJar
+    archives alltrackOaidAndroidJavadocsJar
+    archives alltrackOaidAndroidSourcesJar
+}
+
+publishing {
+    publications {
+        mavenAndroidOaid(MavenPublication) {
+            customizePom(pom)
+            groupId rootProject.ext.alltrackGroupId
+            artifactId 'alltrack-android-oaid'
+            version rootProject.ext.coreVersionName
+
+            artifact alltrackOaidAndroidJar
+            artifact alltrackOaidAndroidJavadocsJar
+            artifact alltrackOaidAndroidSourcesJar
+        }
+    }
+
+    repositories {
+        maven {
+            url "https://oss.sonatype.org/service/local/staging/deploy/maven2"
+            if (project.hasProperty("sonatypeUsername")) {
+                credentials {
+                    username sonatypeUsername
+                    password sonatypePassword
+                }
+            }
+        }
+    }
+}
+
+def customizePom(pom) {
+    pom.withXml {
+        def root = asNode()
+
+        // Add all items necessary for maven central publication.
+        root.children().last() + {
+            resolveStrategy = Closure.DELEGATE_FIRST
+            description 'The Oaid plugin for Alltrack SDK for Android'
+            name 'Alltrack Android SDK Oaid plugin'
+            url 'https://github.com/khaledgoldman/alltrack-android-sdk'
+
+            organization {
+                name 'alltrack'
+                url 'http://www.alltrack.com'
+            }
+            licenses {
+                license {
+                    name 'MIT License'
+                    url 'http://www.opensource.org/licenses/mit-license.php'
+                }
+            }
+            scm {
+                url 'git@github.com:khaledgoldman/alltrack-android-sdk.git'
+                connection 'scm:git:git@github.com:khaledgoldman/alltrack-android-sdk.git'
+                developerConnection 'scm:git:git@github.com:khaledgoldman/alltrack-android-sdk.git'
+            }
+            developers {
+                developer {
+                    name 'Khaled Goldman'
+                    email 'khaledgoldman@yahoo.com'
+                }
+            }
+        }
+    }
+}
+
+model {
+    tasks.generatePomFileForMavenAndroidOaidPublication {
+        destination = file("${project.buildDir}/generated-pom.xml")
+    }
+    /* TODO check if/how to replace this tasks
+    tasks.publishMavenAndroidOaidPublicationToMavenLocal {
+        dependsOn project.tasks.signArchives
+    }
+    tasks.publishMavenAndroidOaidPublicationToMavenRepository {
+        dependsOn project.tasks.signArchives
+    }
+    */
+}
+
+signing {
+    sign publishing.publications.mavenAndroidOaid
+}

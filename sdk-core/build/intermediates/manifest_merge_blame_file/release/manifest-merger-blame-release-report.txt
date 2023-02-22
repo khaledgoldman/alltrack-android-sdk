@@ -1,0 +1,18 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.alltrack.sdk" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="9"
+6-->/Users/nasser/SOFTWARE/AndroidProjects/ProjectAllTrack/android_sdk/Adjust/sdk-core/src/main/AndroidManifest.xml
+7        android:targetSdkVersion="33" />
+7-->/Users/nasser/SOFTWARE/AndroidProjects/ProjectAllTrack/android_sdk/Adjust/sdk-core/src/main/AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.INTERNET" />
+9-->/Users/nasser/SOFTWARE/AndroidProjects/ProjectAllTrack/android_sdk/Adjust/sdk-core/src/main/AndroidManifest.xml:4:5-67
+9-->/Users/nasser/SOFTWARE/AndroidProjects/ProjectAllTrack/android_sdk/Adjust/sdk-core/src/main/AndroidManifest.xml:4:22-64
+10    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+10-->/Users/nasser/SOFTWARE/AndroidProjects/ProjectAllTrack/android_sdk/Adjust/sdk-core/src/main/AndroidManifest.xml:5:5-78
+10-->/Users/nasser/SOFTWARE/AndroidProjects/ProjectAllTrack/android_sdk/Adjust/sdk-core/src/main/AndroidManifest.xml:5:22-76
+11
+12</manifest>

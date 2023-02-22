@@ -1,0 +1,8 @@
+com.alltrack.sdk.sdk-core-pngs-0 /Users/nasser/SOFTWARE/AndroidProjects/ProjectAllTrack/android_sdk/Adjust/sdk-core/build/generated/res/pngs/release
+com.alltrack.sdk.sdk-core-resValues-1 /Users/nasser/SOFTWARE/AndroidProjects/ProjectAllTrack/android_sdk/Adjust/sdk-core/build/generated/res/resValues/release
+com.alltrack.sdk.sdk-core-rs-2 /Users/nasser/SOFTWARE/AndroidProjects/ProjectAllTrack/android_sdk/Adjust/sdk-core/build/generated/res/rs/release
+com.alltrack.sdk.sdk-core-mergeReleaseResources-3 /Users/nasser/SOFTWARE/AndroidProjects/ProjectAllTrack/android_sdk/Adjust/sdk-core/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.alltrack.sdk.sdk-core-mergeReleaseResources-4 /Users/nasser/SOFTWARE/AndroidProjects/ProjectAllTrack/android_sdk/Adjust/sdk-core/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.alltrack.sdk.sdk-core-merged_res-5 /Users/nasser/SOFTWARE/AndroidProjects/ProjectAllTrack/android_sdk/Adjust/sdk-core/build/intermediates/merged_res/release
+com.alltrack.sdk.sdk-core-main-6 /Users/nasser/SOFTWARE/AndroidProjects/ProjectAllTrack/android_sdk/Adjust/sdk-core/src/main/res
+com.alltrack.sdk.sdk-core-release-7 /Users/nasser/SOFTWARE/AndroidProjects/ProjectAllTrack/android_sdk/Adjust/sdk-core/src/release/res
